@@ -47,4 +47,33 @@ section h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: bold;
 }
-
+/** style css footer **/
+footer{
+    background-color: #949494;
+    display: block;
+    height: 150px;
+    display: flex;
+    justify-content:space-around;
+    padding-top: 30px;
+}
+/**style css des pictogrames du footer**/
+.imgTel{
+    width: 80px;
+    height: 80px;
+}
+.imgMail{
+    width: 80px;
+    height: 80px;    
+}
+.imgInsta{
+    width: 150px;
+    height: 90px;
+}
+.imgMaps{
+    width: 80px;
+    height: 80px;
+}
+.imgPinterest{
+    width: 80px;
+    height: 80px;
+}
