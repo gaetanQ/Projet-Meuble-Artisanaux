@@ -1,0 +1,50 @@
+/**style CSS de tout notre site**/
+body {
+    background-color:#FFF3E2;
+}
+
+/**style CSS de notre logo**/
+header h1 {
+    height: 100px; /**définit la hauteur de notre header**/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    font-size: 50px; /**définit la taille de notre police**/  
+    font-family: 'Pacifico', cursive;
+}
+
+/**style css menu navigation**/
+ul {
+    list-style-type: none; /**retire la liste à puces**/
+    display:flex;
+    justify-content: space-around;
+    font-size: 25px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color:black
+}
+
+/**style CSS de notre image**/
+img {
+    height:400px;
+    width:100%;
+}
+
+/**style css partie présentation**/
+#presentation{
+    background-color:#FFF3E2;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    text-align:center;
+}
+
+section h2 {
+    font-size:30px;
+    text-align:center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: bold;
+}
+
