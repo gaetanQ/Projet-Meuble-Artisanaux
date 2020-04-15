@@ -85,6 +85,23 @@ section h2 {
     height: 80px;
 }
 
+/**style css formulaire **/
+fieldset{
+    width: 200px;
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #B9B5B5;
+    padding: 50px;
+
+}
+
+   
+
+
+
+
 /**style css du footer **/
 footer{
     background-color: #B9B5B5;
