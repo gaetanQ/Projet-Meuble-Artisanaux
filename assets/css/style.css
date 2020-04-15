@@ -88,19 +88,29 @@ section h2 {
 /**style css du footer **/
 footer{
     background-color: #B9B5B5;
-    display: block;
-    height: 150px;
-    display: flex;
-    justify-content:space-around;
+    height: 205px;
     padding-top: 30px;
 }
-
+/** style css pictograme footer**/
 .imgInsta{
-    width: 90px;
-    height: 90px;
+    width: 70px;
+    height: 70px;
+    margin: 15px;
 }
 .imgPinterest{
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
+    margin:15px;
 }
-
+/** style css mise  en page pictograme**/
+.pictoRS{
+display: flex;
+flex-direction: row;
+justify-content:center;
+}
+   /**style css mentions légales et copyright**/ 
+.mention{
+    display: flex;
+flex-direction: column;
+align-items:center;
+}
