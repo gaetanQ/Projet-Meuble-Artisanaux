@@ -1,9 +1,4 @@
 
-div, section {
-    border:1px solid red;
-}
-
-
 /**style CSS du header**/
 header {
     background-color:white;
@@ -20,7 +15,6 @@ header h1 {
     margin-left: 20px;
     margin-top:50px;
 }
-
 /**style CSS du contact tel dans le header**/
 #entete {
     display: flex;
@@ -28,27 +22,23 @@ header h1 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 17px;
 }
-
 #imgTel {
     width:40px;
     height:40px;
     margin-left: 1050px;
     margin-top: 50px;
 }
-
 #entete a {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 20px;
     margin-top: 55px;
     font-weight: bold;
 }
-
 /**style CSS de l'image accueil**/
 .imgHome {
     height:400px;
     width:100%;
 }
-
 /**style CSS du slider**/
 #slider {
     position: relative;
@@ -56,7 +46,6 @@ header h1 {
     overflow: hidden;
     height: 400px;
 }
-
 #slides {
     position: absolute;
     top: 0;
@@ -64,14 +53,12 @@ header h1 {
     display: flex;
     max-height: 100%;
 }
-
 #slides figure {
     display: inline-block;
     width: 100vw;
     max-height: 100%;
     margin: 0;
 }
-
 #slides figure img {
     width: 100%;    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
     height: 100%;
@@ -79,7 +66,6 @@ header h1 {
     top: 50%;
     transform: translateY(-50%);
 }
-
 #slides figure figcaption {
     position: absolute;
     bottom: 0;
@@ -89,7 +75,6 @@ header h1 {
     background-color: rgba(0,0,0,0.5);
     color: white;
 }
-
 @keyframes slide {
     0%, 20%, 100% {
         left: 0; /*1ère image*/
@@ -110,7 +95,6 @@ header h1 {
     animation-timing-function: ease-in-out;
     animation-fill-mode: forwards;
 }
-
 /**style css menu navigation**/
 ul {
     list-style-type: none; /**retire la liste à puces**/
@@ -128,7 +112,6 @@ a {
 nav {
     background-color: #FFF3E2;
 }
-
 /**style css partie présentation**/
 #presentation{
     background-color:#FFF3E2;
@@ -137,8 +120,6 @@ nav {
     text-align:center;
     border:#B9B5B5 solid;
 }
-
-
 section h2 {
     font-size:30px;
     text-align:center;
@@ -307,9 +288,6 @@ margin-right: 10px;
     margin-right:10px;
     box-shadow: #B9B5B5 15px 15px 0px;
 }
-
-
-
 /**style css rubrique contact **/
 
 .contact{
@@ -329,7 +307,6 @@ fieldset  {
     background-color: #B9B5B5 ;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
-
 .imgTel{
     width: 80px;
     height: 80px;
@@ -346,10 +323,6 @@ fieldset  {
     height: 80px;
    
 }
-
-
-
-
 /**style css du footer **/
 footer{
     background-color: #B9B5B5;
@@ -367,8 +340,6 @@ footer{
     height: 75px;
     margin:15px;
 }
-
-
 /** style css mise  en page pictograme**/
 .pictoRS{
 display: flex;
