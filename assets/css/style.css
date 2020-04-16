@@ -1,3 +1,9 @@
+
+div, section {
+    border:1px solid red;
+}
+
+
 /**style CSS du header**/
 header {
     background-color:white;
@@ -175,23 +181,19 @@ section h2 {
 
 /**style css rubrique contact **/
 
-.contact{
+.contact fieldset .pictoC{
     display:flex;
     flex-direction: row;
     align-items: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-   
-
+    
 }
-}
-
 fieldset  {
     width: 200px;
     height: 200px;
-    display:flex;  
     padding: 50px;
-    border-radius: 10px;;
+    border-radius: 10px;
+    background-color: #B9B5B5 ;
 }
 
 .imgTel{
