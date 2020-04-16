@@ -1,17 +1,34 @@
-  /**@media screen and (min-width: 480px max-width: 1400px )**/
+  /**@media screen and (min-width: 480px max-width: 992px )**/
   
-  @media screen and (max-width:992px) {
-    #navbar ul {
-        display:column;
+  @media screen and (max-width:992px) 
+  {
+    #entete {
+        flex-direction: column;
+    }
+    nav {
+        width:auto;
+        text-align: left;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav li {
+        padding-left: 10px;
+    }
+    nav a {
+        font-size: 10px;
     }
     footer{
         text-align: center;
     }
-}
-
-@media screen and (max-width: 680px) {
-    a, form {
-        display:none;
+    #slider {
+        width:auto;
     }
-
+    #presentation {
+        text-align: center;
+    }
+    section {
+        flex-direction: column;
+    }
 }
+
