@@ -13,9 +13,16 @@
         <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     </head>
     <body>
-       <header><!--balise Header, en tête de notre page, qui comprendra notre logo, notre menu de navigation et notre image d'accueil-->
+       <header><!--balise Header, en tête de notre page, qui comprendra : notre logo, notre contact tel, notre menu de navigation, notre image d'accueil-->
+
+        <section id="entete">
+            
            <h1>Mobil'Art</h1><!--titre de premier niveau--> 
- 
+          
+           <img alt="phone" src="assets/images/pictotel.png" id="imgTel"/> <a href="tel:+33600000000">06.00.00.00.00</a>
+        </section>
+    </br>
+    </br>
         <!--menu de navigation-->
         <nav> <!--balise de navigation-->
             <ul>
@@ -33,18 +40,32 @@
             </ul>
          </nav>
 
-         <!--image d'accueil-->
-         <img alt="Bois"  src="assets/images/pageaccueil.jpeg"/>
+         <!--slider accueil-->
+         <div id="slider">
+            <div id="slides">
+                <figure id="slide1">
+                    <img src="assets/images/pageaccueil.jpeg" alt="rondin de bois">
+                </figure>
+                <figure id="slide2">
+                    <img src="assets/images/imageslider2.jpg" alt="outils à bois">
+                </figure>
+                <figure id="slide3">
+                    <img src="assets/images/imageslider3.jpg" alt="travail du bois">
+                </figure>
+           </div>
+        </div>
         </header>
 
          <!--page accueil-->
          <section id="presentation">
-                <h2>Bienvenue chez Mobil'art !</h2>
-                <p>Mobil'art est une entreprise havraise qui design et crée vos meubles entièrement à la main depuis 2012 ! </br>
-                Nous tâchons d'utiliser le plus de matériaux de récupération afin de vous proposer des réalisations les plus éco responsables possible.</br>
-                Ainsi vous retrouverez dans nos créations divers objet que l'on peut rencontrer au quotidien , de l'ancienne voile de bateau, </br>
-                au simple bois flotté venu s'échouer sur nos plages.
-                Ainsi, toutes les pièces qui sortent de notre entreprise sont uniques !</p>
+
+                <h2>BIENVENUE CHEZ MOBIL'ART !</h2>
+
+                      <p>Mobil'art est une entreprise havraise qui design et crée vos meubles entièrement à la main depuis 2012 ! </br>
+                         Nous tâchons d'utiliser le plus de matériaux de récupération afin de vous proposer des réalisations les plus éco responsables possible.</br>
+                         Ainsi vous retrouverez dans nos créations divers objet que l'on peut rencontrer au quotidien , de l'ancienne voile de bateau, </br>
+                         au simple bois flotté venu s'échouer sur nos plages.
+                         Ainsi, toutes les pièces qui sortent de notre entreprise sont uniques !</p>
         </section>
 
         <!--Nos réalisations-->
@@ -90,21 +111,90 @@
     </section>
         
         <!--page expositions-->
+        <section class="expositions">
+                   <h2> EXPOSITIONS</h2>
+                           <p>Nos oeuvres seront exposées prochainement lors de plusieurs grands salons de l'ameublement :</p>
+                        <div class="expoBlock">
+                          <p>Salon Maison & Objets - Paris Nord 2 Villepinte </br>
+                             Du 05 au 07 juin 2020</br>
+                             Hall 5B / Stand H28</p>
+
+                            <div class="expoblockImg">
+                                <img src="assets/images/expom&o.jpg" alt="expo m&o">
+                           </div>
+                        </div>
+
+                        <div class="expoBlock">
+                             <p>Salon Esprit Meubles - Paris Porte de Versailles </br>
+                               Du 03 au 05 juillet 2020</br>
+                               Hall 2 / Stand B41</p>
+
+                                <div class="expoblockImg">
+                                      <img src="assets/images/expoespritmeubles.jpg" alt="expo espritmeubles">
+                                 </div>
+                       </div>
+
+                        <div class="expoBlock">
+                              <p>Salon IFFS (International Fair Funiture Singapore) - Singapour </br>
+                                Du 25 au 3 juillet 2020</br>
+                                Hall 4 / Stand D20</p>
+
+                            <div class="expoblockImg">
+                                <img src="assets/images/expoiffs.jpg" alt="expo iffs">
+                            </div>
+                         </div>
+         </section>
 
         <!--page contact-->
-        <footer id="contact">
-            <img alt="phone" src="assets/images/pictotel.png" class="imgTel">
-            <img alt="mail" src="assets/images/pictomail.png" class="imgMail">
+        <section id="contact"> 
 
-            <a href="https://bit.ly/2xkfDgE" target="blank">
-            <img alt="Instagram" src="assets/images/pictoinstagram.png" class="imgInsta"></a>
+           <fieldset>
+            <form method="post"class="fieldset form"> <!-- formulaire de contact-->
+                <legend >Contactez nous</legend>
+                <div>
+                    <label for="name">Nom:</label>
+                    <input type="text" id="name" name="name" placeholder="Nom">
+                    <label for="mail">Votre adresse email :</label>
+                    <input type="text" id="mail" name="mail" placeholder="Email">
+                </div>   
 
-            <a href="https://bit.ly/3ekPXAR" target="blank">
-            <img alt="Pinterest" src="assets/images/pictopinterest.png" class="imgPinterest"></a>
+                <div>
+                    <label for="phone">Téléphone:</label>
+                    <input type="number" id="phone" name="phone" placeholder="telephone">
+                </div>
 
-            <a href="https://bit.ly/34zVbo1" target="blank">
-            <img alt="Maps" src="assets/images/pictogooglemap.png" class="imgMaps"></a>
-            <p> &copy;Mobil'Art</p>
+                <div>
+                    <label for="message">Votre message:</label>
+                    <textarea name="message"></textarea>
+                </div>
+            </fieldset>
+            </form>
+
+            <img alt="phone" src="assets/images/pictotel.png" class="imgTel"> <!--html pictograme telephone-->
+            <img alt="mail" src="assets/images/pictomail.png" class="imgMail"> <!-- html pictograme mail-->
+
+        
+            <a href="https://bit.ly/2ydmx7k" target="blank">
+            <img alt="Maps" src="assets/images/maps.png" class="imgMaps"></a> <!--html pictograme maps-->
+            
+        </section>
+
+        <footer >
+                   <!-- Pictograme footer-->
+                  <div class="pictoRS">
+                      <a href="https://bit.ly/2xkfDgE" target="blank">
+                      <img alt="Instagram" src="assets/images/instagram.png" class="imgInsta"></a> 
+    
+                       <a href="https://bit.ly/3ekPXAR" target="blank">
+                       <img alt="Pinterest" src="assets/images/pinterest.png" class="imgPinterest"></a>
+    
+                    </div>
+
+            <div class="mention">
+                <a href="https://www.generer-mentions-legales.com/" target="blank">
+                     <h4>Mentions légales</h4></a>
+                     <p> &copy;Mobil'Art</p>
+            </div>
         </footer>
 
     </body>

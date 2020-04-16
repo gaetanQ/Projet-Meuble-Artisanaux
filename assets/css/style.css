@@ -1,16 +1,108 @@
-/**style CSS de tout notre site**/
-body {
-    background-color:#FFF3E2;
+/**style CSS du header**/
+header {
+    background-color:white;
 }
 
 /**style CSS de notre logo**/
 header h1 {
-    height: 100px; /**définit la hauteur de notre header**/
+    height: 40px; /**définit la hauteur de notre header**/
     display: flex;
     justify-content: left;
     align-items: center;
     font-size: 50px; /**définit la taille de notre police**/  
     font-family: 'Pacifico', cursive;
+    margin-left: 20px;
+    margin-top:50px;
+}
+
+/**style CSS du contact tel dans le header**/
+#entete {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 17px;
+}
+
+#imgTel {
+    width:40px;
+    height:40px;
+    margin-left: 1050px;
+    margin-top: 50px;
+}
+
+#entete a {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 55px;
+    font-weight: bold;
+}
+
+/**style CSS de l'image accueil**/
+.imgHome {
+    height:400px;
+    width:100%;
+}
+
+/**style CSS du slider**/
+#slider {
+    position: relative;
+    max-width: 100%;
+    overflow: hidden;
+    height: 400px;
+}
+
+#slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    max-height: 100%;
+}
+
+#slides figure {
+    display: inline-block;
+    width: 100vw;
+    max-height: 100%;
+    margin: 0;
+}
+
+#slides figure img {
+    width: 100%;    /*Centrer l'image verticalement si celle-ci ne peut être affichée totalement*/
+    height: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#slides figure figcaption {
+    position: absolute;
+    bottom: 0;
+    padding: 2.5em 0;
+    text-align: center;
+    width: inherit;
+    background-color: rgba(0,0,0,0.5);
+    color: white;
+}
+
+@keyframes slide {
+    0%, 20%, 100% {
+        left: 0; /*1ère image*/
+    }
+    35%, 50% {
+        left: -100vw; /*2ème image*/
+    }
+    70%, 95% {
+        left: -200vw; /*3ème image*/
+    }
+}
+    /*... Code précédent ...*/
+    /*CSS3 keyframes animation*/
+#slides {
+    animation-name: slide;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
 }
 
 /**style css menu navigation**/
@@ -25,12 +117,6 @@ ul {
 a {
     text-decoration: none;
     color:black
-}
-
-/**style CSS de notre image**/
-img {
-    height:400px;
-    width:100%;
 }
 
 /**style css partie présentation**/
@@ -48,16 +134,47 @@ section h2 {
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-style: bold;
 }
-/** style css footer **/
-footer{
-    background-color: #949494;
-    display: block;
-    height: 150px;
-    display: flex;
-    justify-content:space-around;
-    padding-top: 30px;
+
+
+/**style CSS page Expositions**/
+.expositions {
+    background-color:#FFF3E2 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
 }
-/**style css des pictogrames du footer**/
+
+.expoBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+    border-bottom: 10px solid white
+}
+
+.expoBlock p {
+    width:60%;
+    text-align: center;
+    margin: 5% 5%;
+    padding: 25px;
+}
+
+.expoblockImg {
+    width:40%;
+    border-left:4px solid #B9B5B5 ;
+}
+
+.expoblockImg img {
+    width:330px;
+    height:220px;
+    margin-left:130px;
+    margin-top:40px;
+    margin-right:10px;
+    box-shadow: #B9B5B5 15px 15px 0px;
+}
+
+
+
+/**style css formulaire **/
 .imgTel{
     width: 80px;
     height: 80px;
@@ -66,18 +183,40 @@ footer{
     width: 80px;
     height: 80px;    
 }
-.imgInsta{
-    width: 150px;
-    height: 90px;
-}
 .imgMaps{
     width: 80px;
     height: 80px;
 }
-.imgPinterest{
-    width: 80px;
-    height: 80px;
+
+fieldset{
+    width: 200px;
+    height: 200px;
+    display:flex;
+    flex-direction: row;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #B9B5B5;
+    padding: 50px;
+
 }
+
+/**style css du footer **/
+footer{
+    background-color: #B9B5B5;
+    height: 205px;
+    padding-top: 30px;
+}
+/** style css pictograme footer**/
+.imgInsta{
+    width: 70px;
+    height: 70px;
+    margin: 15px;
+}
+.imgPinterest{
+    width: 75px;
+    height: 75px;
+    margin:15px;
+}
+<<<<<<< HEAD
 
 /**style css page realisation**/
 
@@ -123,3 +262,17 @@ footer{
     margin: 5px 5px;
 }
 
+=======
+/** style css mise  en page pictograme**/
+.pictoRS{
+display: flex;
+flex-direction: row;
+justify-content:center;
+}
+   /**style css mentions légales et copyright**/ 
+.mention{
+    display: flex;
+flex-direction: column;
+align-items:center;
+}
+>>>>>>> 45050d415d34f0cd8f991d4cda766700c8f11da2
