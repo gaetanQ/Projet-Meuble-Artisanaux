@@ -225,32 +225,39 @@ section h2 {
 
 /**style css rubrique contact **/
 
-.contact fieldset .pictoC{
+.contact{
     display:flex;
     flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
+       
 }
+
+/**style css formulaire**/
 fieldset  {
-    width: 200px;
-    height: 200px;
+    width: 250px;
+    height: 250px;
     padding: 50px;
     border-radius: 10px;
     background-color: #B9B5B5 ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
 }
 
 .imgTel{
     width: 80px;
     height: 80px;
+    padding: 60px;
 }
 .imgMail{
     width: 80px;
-    height: 80px;    
+    height: 80px;
+    padding: 60px;
+
 }
 .imgMaps{
     width: 80px;
     height: 80px;
+   
 }
 
 
