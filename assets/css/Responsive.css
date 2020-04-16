@@ -1,0 +1,17 @@
+  /**@media screen and (min-width: 480px max-width: 1400px )**/
+  
+  @media screen and (max-width:992px) {
+    #navbar ul {
+        display:column;
+    }
+    footer{
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 680px) {
+    a, form {
+        display:none;
+    }
+
+}

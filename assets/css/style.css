@@ -189,8 +189,6 @@ section h2 {
     margin: 5px 5px;
 }
 
-/**style css page realisation**/
-
 .realisations{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
@@ -363,19 +361,3 @@ footer{
     margin:15px;
 }
 
-<<<<<<< HEAD
-=======
-
-/** style css mise  en page pictograme**/
-.pictoRS{
-display: flex;
-flex-direction: row;
-justify-content:center;
-}
-   /**style css mentions légales et copyright**/ 
-.mention{
-    display: flex;
-flex-direction: column;
-align-items:center;
-}
->>>>>>> f32d8cc7932797239a672f959acbe75092d9c4c0
