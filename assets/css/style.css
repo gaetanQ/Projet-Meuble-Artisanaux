@@ -173,7 +173,27 @@ section h2 {
 
 
 
-/**style css formulaire **/
+/**style css rubrique contact **/
+
+.contact{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+   
+
+}
+}
+
+fieldset  {
+    width: 200px;
+    height: 200px;
+    display:flex;  
+    padding: 50px;
+    border-radius: 10px;;
+}
+
 .imgTel{
     width: 80px;
     height: 80px;
@@ -187,16 +207,8 @@ section h2 {
     height: 80px;
 }
 
-fieldset{
-    width: 200px;
-    height: 200px;
-    display:flex;
-    flex-direction: row;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #B9B5B5;
-    padding: 50px;
 
-}
+
 
 /**style css du footer **/
 footer{
