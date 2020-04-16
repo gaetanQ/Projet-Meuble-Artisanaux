@@ -125,12 +125,17 @@ a {
     color:black
 }
 
+nav {
+    background-color: #FFF3E2;
+}
+
 /**style css partie présentation**/
 #presentation{
     background-color:#FFF3E2;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 25px;
     text-align:center;
+    border:#B9B5B5 solid;
 }
 
 
@@ -184,6 +189,90 @@ section h2 {
     margin: 5px 5px;
 }
 
+/**style css page realisation**/
+
+.realisations{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.realblockImg{
+    width: 50%;
+}
+
+.realblockImg img{
+    width: 500px;
+    height: 350px;
+    margin-left: 10px;
+    margin-top: 40px;
+    border: #B9B5B5 solid;
+}
+
+.realisationBlock{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.realisationTop p{
+    text-align: center;
+    background-color: #FFF3E2;
+    box-shadow: #B9B5B5 0px 15px 15px;
+}
+
+.realisationTop {
+    width: 50%;
+    margin-top: 85px;
+    margin-right: 80px;
+}
+
+.realisationMiddle{
+    width: 50%;
+    margin-top: 85px;
+    margin-left: 130px
+}
+
+.realisationMiddle p{
+    text-align: center;
+    background-color: #FFF3E2;
+    box-shadow: #B9B5B5 0px 15px 15px;
+}
+
+.realisationTop h4 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.realisationMiddle h4 {
+    text-align: center;
+    font-size: 23px;
+}
+
+.realisationblockCenter {
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.realblockimgCenter {
+width:50%;
+margin-left: 350px;
+margin-right: 10px;
+}
+
+.realblockimgCenter img{
+    width: 500px;
+    height: 350px;
+  margin-right:10px;
+    margin-top: 40px;
+    border: #B9B5B5 solid;
+}
 
 /**style CSS page Expositions**/
 .expositions {
@@ -281,6 +370,8 @@ footer{
     margin:15px;
 }
 
+<<<<<<< HEAD
+=======
 
 /** style css mise  en page pictograme**/
 .pictoRS{
@@ -294,3 +385,4 @@ justify-content:center;
 flex-direction: column;
 align-items:center;
 }
+>>>>>>> f32d8cc7932797239a672f959acbe75092d9c4c0
